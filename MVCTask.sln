@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask.Core", "MVCTask.Core\MVCTask.Core.csproj", "{4CFD8AE0-786A-4413-8CDF-92D323906DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask.DAL", "MVCTask.DAL\MVCTask.DAL.csproj", "{FD3EEE1A-0808-47C2-B0B8-454A423D5D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask.BL", "MVCTask.BL\MVCTask.BL.csproj", "{B57AA890-F383-438B-B3D3-2EE7E08BCE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask.API", "MVCTask.API\MVCTask.API.csproj", "{9D4043DD-2180-4793-BABB-B5D40BBF9F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask.Infrastructure", "MVCTask.Infrastructure\MVCTask.Infrastructure.csproj", "{6CC220B7-7BAF-4550-93AA-8CEB256B3421}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9B632E26-2310-4BBD-B85C-CDE79E53F623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTask.MVC", "MVCTask.MVC\MVCTask.MVC.csproj", "{308E75C4-718D-4F1C-B24C-F5B489F47B62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFD8AE0-786A-4413-8CDF-92D323906DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFD8AE0-786A-4413-8CDF-92D323906DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFD8AE0-786A-4413-8CDF-92D323906DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFD8AE0-786A-4413-8CDF-92D323906DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3EEE1A-0808-47C2-B0B8-454A423D5D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3EEE1A-0808-47C2-B0B8-454A423D5D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3EEE1A-0808-47C2-B0B8-454A423D5D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3EEE1A-0808-47C2-B0B8-454A423D5D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57AA890-F383-438B-B3D3-2EE7E08BCE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57AA890-F383-438B-B3D3-2EE7E08BCE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57AA890-F383-438B-B3D3-2EE7E08BCE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57AA890-F383-438B-B3D3-2EE7E08BCE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4043DD-2180-4793-BABB-B5D40BBF9F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4043DD-2180-4793-BABB-B5D40BBF9F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4043DD-2180-4793-BABB-B5D40BBF9F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4043DD-2180-4793-BABB-B5D40BBF9F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC220B7-7BAF-4550-93AA-8CEB256B3421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC220B7-7BAF-4550-93AA-8CEB256B3421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC220B7-7BAF-4550-93AA-8CEB256B3421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC220B7-7BAF-4550-93AA-8CEB256B3421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308E75C4-718D-4F1C-B24C-F5B489F47B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308E75C4-718D-4F1C-B24C-F5B489F47B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308E75C4-718D-4F1C-B24C-F5B489F47B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308E75C4-718D-4F1C-B24C-F5B489F47B62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CC220B7-7BAF-4550-93AA-8CEB256B3421} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{308E75C4-718D-4F1C-B24C-F5B489F47B62} = {9B632E26-2310-4BBD-B85C-CDE79E53F623}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {897A0A47-11AA-4D2A-A1E9-18D05C14B89E}
+	EndGlobalSection
+EndGlobal
