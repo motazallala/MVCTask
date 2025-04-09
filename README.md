@@ -56,7 +56,7 @@ This project demonstrates how to implement **user authentication and authorizati
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/motazallala/MVCTask.git
+git clone https://github.com/motazallala/manual-auth-demo.git
 ```
 
 ### 2. Configure the Database
